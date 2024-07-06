@@ -1,15 +1,5 @@
 # Markdown Extension Examples
 
-:::preview title || component description content
-
-demo-preview=./Demo.vue
-
-:::
-
-<preview path="./Demo.vue"></preview>
-
-
-
 This page demonstrates some of the built-in markdown extensions provided by VitePress.
 
 ## Syntax Highlighting

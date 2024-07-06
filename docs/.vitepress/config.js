@@ -1,10 +1,17 @@
 import { defineConfig } from 'vitepress'
+import { containerPreview, componentPreview } from '@vitepress-demo-preview/plugin'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: '/eric-ui',
   title: "eric-ui",
   description: "eriv-ui",
+  markdown: {
+    config(md) {
+      md.use(containerPreview)
+      md.use(componentPreview)
+    }
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
