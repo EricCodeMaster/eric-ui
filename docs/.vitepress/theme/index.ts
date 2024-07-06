@@ -5,6 +5,9 @@ import DefaultTheme from 'vitepress/theme'
 import './style.css'
 import Demo from '../components/MyComponent.vue'
 
+import Antd from 'ant-design-vue';
+import 'ant-design-vue/dist/antd.less';
+
 export default {
   extends: DefaultTheme,
   Layout: () => {
@@ -15,6 +18,7 @@ export default {
   enhanceApp({ app, router, siteData }) {
     // ...
     app.component('Demo', Demo)
+    app.use(Antd)
 
   }
 } satisfies Theme
