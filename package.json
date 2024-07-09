@@ -1,27 +1,51 @@
 {
-  "name": "eric-ui",
-  "private": true,
-  "version": "0.0.0",
+  "name": "eric-ui-lib",
+  "version": "0.0.4",
+  "description": "eric-ui组件库",
+  "main": "lib/eric-ui.umd.js",
+  "module": "lib/eric-ui.es.js",
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "eric-ui",
+    "eric",
+    "ui"
+  ],
+  "author": "Eric",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build:lib": "vite build --config ./build/lib.config.js",
     "preview": "vite preview",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
   },
-  "dependencies": {
+  "peerDependencies": {
+    "@ant-design/icons-vue": ">=6.1.0",
+    "ant-design-vue": ">=3.2.20",
+    "js-pinyin": "^0.2.5",
+    "lodash": "^4.17.21",
+    "sortablejs": "^1.15.0",
+    "tributejs": "^5.1.3",
+    "vue": ">=3.2.0",
+    "vxe-table": ">=4.3.12",
+    "xe-utils": ">=3.5.7"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "@vitejs/plugin-vue-jsx": "^4.0.0",
+    "less": "^4.2.0",
+    "vite": "^5.3.1",
+    "vitepress": "^1.2.3",
     "@vitepress-demo-preview/component": "^2.3.2",
     "@vitepress-demo-preview/plugin": "^1.2.3",
     "ant-design-vue": "^3.2.20",
+    "fs-extra": "^11.2.0",
     "less-loader": "^12.2.0",
+    "vite-plugin-static-copy": "^1.0.6",
     "vue": "^3.4.29"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-vue": "^5.0.5",
-    "less": "^4.2.0",
-    "vite": "^5.3.1",
-    "vitepress": "^1.2.3"
   }
 }
