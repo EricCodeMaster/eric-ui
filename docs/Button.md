@@ -2,6 +2,6 @@
 
 :::preview title || component description content
  
-demo-preview=../src/components/button/demo.vue
+demo-preview=../components/Button/Demo.vue
  
 :::

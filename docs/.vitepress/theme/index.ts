@@ -12,6 +12,7 @@ import '@vitepress-demo-preview/component/dist/style.css'
 import './style.css'
 
 import HomeImage from './HomeImage.vue'
+import EricUI from "../../../components";
 
 export default {
   extends: DefaultTheme,
@@ -23,6 +24,7 @@ export default {
   },
   enhanceApp({ app, router, siteData }) {
     app.use(Antd)
+    app.use(EricUI)
     app.component('demo-preview', AntDesignContainer)
   }
 } satisfies Theme
