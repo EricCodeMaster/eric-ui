@@ -7,4 +7,7 @@ import "ant-design-vue/dist/antd.less";
 
 import EricUI from "../components";
 
-const app = createApp(App).use(Antd).use(EricUI).mount("#app");
+import VxeTable from "vxe-table";
+import "vxe-table/lib/style.css";
+
+const app = createApp(App).use(VxeTable).use(Antd).use(EricUI).mount("#app");
