@@ -21,7 +21,6 @@ export default defineConfig({
   appearance: false,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: "logo.png",
     nav: [
       { text: "首页", link: "/" },
       { text: "文档", link: "/component-examples" },

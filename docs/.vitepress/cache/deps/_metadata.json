@@ -1,49 +1,55 @@
 {
-  "hash": "b7820c2e",
+  "hash": "f5b5331e",
   "configHash": "d08114b7",
-  "lockfileHash": "04998485",
-  "browserHash": "9093177b",
+  "lockfileHash": "501ccfbd",
+  "browserHash": "766cda46",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "717d8f95",
+      "fileHash": "b5c69b6a",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../../node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "28da3da7",
+      "fileHash": "e3e3a186",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../../node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "7fb0347c",
+      "fileHash": "ec45626f",
       "needsInterop": false
     },
     "ant-design-vue": {
       "src": "../../../../node_modules/ant-design-vue/es/index.js",
       "file": "ant-design-vue.js",
-      "fileHash": "d8d9f692",
+      "fileHash": "ffc6d410",
       "needsInterop": false
     },
     "@vitepress-demo-preview/component": {
       "src": "../../../../node_modules/@vitepress-demo-preview/component/dist/preview-component.js",
       "file": "@vitepress-demo-preview_component.js",
-      "fileHash": "d2ad3fe1",
+      "fileHash": "17a3d0e9",
       "needsInterop": false
     },
     "vxe-table": {
       "src": "../../../../node_modules/vxe-table/es/index.esm.js",
       "file": "vxe-table.js",
-      "fileHash": "1c83d39d",
+      "fileHash": "245e5550",
       "needsInterop": false
+    },
+    "lodash": {
+      "src": "../../../../node_modules/lodash/lodash.js",
+      "file": "lodash.js",
+      "fileHash": "e0d90501",
+      "needsInterop": true
     }
   },
   "chunks": {
-    "chunk-AU3CLKKL": {
-      "file": "chunk-AU3CLKKL.js"
+    "chunk-OHXWM23E": {
+      "file": "chunk-OHXWM23E.js"
     },
     "chunk-G3PMV62Z": {
       "file": "chunk-G3PMV62Z.js"
