@@ -25,8 +25,12 @@ export default defineConfig({
     nav: [
       { text: "首页", link: "/" },
       { text: "文档", link: "/component-examples" },
+      {
+        text: "测试用例报告",
+        link: '/report/index.html',
+        target: "_self",
+      },
     ],
-
     sidebar: [
       {
         text: "组件",
@@ -43,7 +47,7 @@ export default defineConfig({
           `,
         },
         link: "https://blog.csdn.net/m0_73884922",
-        ariaLabel: 'csdn'
+        ariaLabel: "csdn",
       },
     ],
   },
