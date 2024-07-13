@@ -77,7 +77,6 @@
 
 <script>
 import { defineComponent, reactive, ref } from "vue";
-import { Modal } from "ant-design-vue";
 
 export default defineComponent({
   name: "EButtonDocs",

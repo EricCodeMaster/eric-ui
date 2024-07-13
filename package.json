@@ -28,11 +28,11 @@
     "@ant-design/icons-vue": ">=6.1.0",
     "ant-design-vue": ">=3.2.20",
     "js-pinyin": "^0.2.5",
-    "lodash": "^4.17.21",
     "sortablejs": "^1.15.2",
     "vue": ">=3.2.0",
     "vxe-table": "^4.6.18",
-    "xe-utils": "^3.5.28"
+    "xe-utils": "^3.5.28",
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.5",
@@ -55,5 +55,8 @@
     "vue": "^3.2.40",
     "vxe-table": "^4.6.18",
     "xe-utils": "^3.5.28"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }

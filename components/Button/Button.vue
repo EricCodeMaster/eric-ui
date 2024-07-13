@@ -23,7 +23,7 @@ export default {
 import { useAttrs, useSlots, computed } from 'vue';
 import { Modal } from 'ant-design-vue';
 import { isNil, isNumber, isString } from 'lodash';
-
+console.log('lodash', isNil)
 const props = defineProps({
   config: {
     type: Object,
