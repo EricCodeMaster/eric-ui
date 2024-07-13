@@ -22,8 +22,8 @@ export default {
 <script setup>
 import { useAttrs, useSlots, computed } from 'vue';
 import { Modal } from 'ant-design-vue';
-import { isNil, isNumber, isString } from 'lodash';
-console.log('lodash', isNil)
+import _ from 'lodash';
+
 const props = defineProps({
   config: {
     type: Object,
@@ -50,12 +50,12 @@ const handleClick = (e) => {
 };
 // tooltip 为简单数据类型时，直接显示
 const isPrimitive = computed(() => {
-  return isString(props.tooltip) || isNumber(props.tooltip);
+  return _.isString(props.tooltip) || _.isNumber(props.tooltip);
 });
 
 const slots = useSlots();
 
 const isTooltipBtn = computed(() => {
-  return slots.tooltip || !isNil(props.tooltip);
+  return slots.tooltip || !_.isNil(props.tooltip);
 });
 </script>
