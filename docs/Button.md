@@ -1,6 +1,6 @@
 # 按钮
 
-:::preview title || component description content
+:::preview Button || 继承ant design button 能力
  
 demo-preview=../components/Button/Demo.vue
  

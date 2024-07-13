@@ -52,7 +52,7 @@
     "vite-plugin-static-copy": "^1.0.6",
     "vitepress": "^1.2.3",
     "vitest": "^2.0.2",
-    "vue": "^3.4.29",
+    "vue": "^3.2.40",
     "vxe-table": "^4.6.18",
     "xe-utils": "^3.5.28"
   }
