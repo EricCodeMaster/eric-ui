@@ -4,8 +4,10 @@ import { ESwitchButton } from "./ESwitchButton";
 export * from "./ESwitchButton";
 import { ESelect } from "./ESelect";
 export * from "./ESelect";
+import { ESection } from "./ESection";
+export * from "./ESection";
 
-const cmpts = [EButton, ESwitchButton, ESelect];
+const cmpts = [EButton, ESwitchButton, ESelect, ESection];
 
 const EricUI = {
   install(Vue) {
