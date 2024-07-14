@@ -17,6 +17,8 @@ import EricUI from "../../../components";
 import VxeTable from "vxe-table";
 import "vxe-table/lib/style.css";
 
+import '../../../components/style/index.less';
+
 export default {
   extends: DefaultTheme,
   Layout: () => {

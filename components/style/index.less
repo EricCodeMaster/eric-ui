@@ -1,0 +1,15 @@
+// 采用CSS变量的方式支持主题定制，未采用less变量的方式是因为还需要支持less文件的抽取，暂时采用较简单的方案实现
+
+:root {
+  --e-bg-color: #fff; // 组件背景色
+  --e-primary-color: #1890ff; // 全局主色
+  --e-warning-color: #faad14; // 警告色
+  --e-error-color: #f5222d; // 错误色
+  --e-border-color: #d9d9d9;
+  --e-primary-1: #e6f7ff; // antd主题色, 用于次要背景色，缺乏运算函数，暂时手工指定
+  --e-primary-4: #69c0ff; // antd主题色, 用一直边框
+  --e-disabled-color: rgba(0, 0, 0, 0.25); // 失效色
+  --e-color-secondary-color: rgba(0, 0, 0, 0.45); // 次文本色
+  --e-border-radius: 4px; // 组件/浮层圆角
+  --e-section-bg-color: #f5f5f5; // section背景色
+}
