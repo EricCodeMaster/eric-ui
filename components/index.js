@@ -1,9 +1,9 @@
-import { EButton } from "./Button";
-export * from "./Button";
-import { ECard } from "./Card";
-export * from "./Card";
+import { EButton } from "./EButton";
+export * from "./EButton";
+import { ESwitchButton } from "./ESwitchButton";
+export * from "./ESwitchButton";
 
-const cmpts = [EButton, ECard];
+const cmpts = [EButton, ESwitchButton];
 
 const EricUI = {
   install(Vue) {

@@ -110,11 +110,7 @@ export default defineComponent({
       title: "标题",
       content: "内容-同步onOk",
       onOk: () => {
-        // window.alert("resolve 同步onOk");
-        console.log("111-----------------------");
-      },
-      onCancel: () => {
-        console.log("-----------------------");
+        window.alert("resolve 同步onOk");
       },
     });
     const handleOk = () => {
