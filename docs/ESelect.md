@@ -1,0 +1,34 @@
+# Select
+
+:::preview Select
+
+demo-preview=../components/ESelect/Demo.vue
+
+:::
+
+## API
+
+#### ESelect 属性
+
+兼容所有 select 的方法 参考 [Ant design vue Select](https://www.antdv.com/components/select-cn), 仅展示额外新增属性
+
+
+| 属性名   | 说明         | 类型             | 默认值 | 版本  |
+| -------- | ------------ | ---------------- | ------ | ----- |
+| value    | 当前值       | String \| Number | null   | 2.4.0 |
+| readonly | 是否只读     | Boolean          | false  | 2.4.0 |
+| pinyin    | 是否启用拼音搜索（需要npm i js-pinyin） | Boolean          | false   | 2.4.0 |
+|以下仅支持option写法：|
+| colon    | 是否显示冒号 | Boolean          | true   | 2.4.0 |
+| preLabel | 前置标签(仅支持options写法)     | String           | -      | 2.4.0 |
+| showAll    | 为true时，增加选项-全部（默认） | Boolean          | true   | 2.4.0 |
+| defaultTitle    | showAll为true时，增加选项title（例如不选择） | String    | ''   | 2.4.0 |
+| defaultValue    | showAll为true时，增加选项value | String, Number    | ''   | 2.4.0 |
+
+
+#### 开发要点
+
+1. 基于 antd 开发, 兼容 antd 的使用方式
+2. 通过对 select 的定制回填内容实现前置的 label
+3. 默认的配置,将常用且固定的配置内置, 且支持自定义
+4. 功能扩展, 比如只读模式,自动开启模糊搜索
