@@ -36,6 +36,7 @@ export default defineConfig({
         items: [
           { text: "EButton", link: "/EButton" },
           { text: "ESwitchButton", link: "/ESwitchButton" },
+          { text: "ESelect", link: "/ESelect" },
         ],
       },
     ],
