@@ -15,15 +15,15 @@ demo-preview=../components/ESelect/Demo.vue
 
 | 属性名   | 说明         | 类型             | 默认值 | 版本  |
 | -------- | ------------ | ---------------- | ------ | ----- |
-| value    | 当前值       | String \| Number | null   | 2.4.0 |
-| readonly | 是否只读     | Boolean          | false  | 2.4.0 |
-| pinyin    | 是否启用拼音搜索（需要npm i js-pinyin） | Boolean          | false   | 2.4.0 |
+| value    | 当前值       | String \| Number | null   | 0.0.4 |
+| readonly | 是否只读     | Boolean          | false  | 0.0.4 |
+| pinyin    | 是否启用拼音搜索（需要npm i js-pinyin） | Boolean          | false   | 0.0.4 |
 |以下仅支持option写法：|
-| colon    | 是否显示冒号 | Boolean          | true   | 2.4.0 |
-| preLabel | 前置标签(仅支持options写法)     | String           | -      | 2.4.0 |
-| showAll    | 为true时，增加选项-全部（默认） | Boolean          | true   | 2.4.0 |
-| defaultTitle    | showAll为true时，增加选项title（例如不选择） | String    | ''   | 2.4.0 |
-| defaultValue    | showAll为true时，增加选项value | String, Number    | ''   | 2.4.0 |
+| colon    | 是否显示冒号 | Boolean          | true   | 0.0.4 |
+| preLabel | 前置标签(仅支持options写法)     | String           | -      | 0.0.4 |
+| showAll    | 为true时，增加选项-全部（默认） | Boolean          | true   | 0.0.4 |
+| defaultTitle    | showAll为true时，增加选项title（例如不选择） | String    | ''   | 0.0.4 |
+| defaultValue    | showAll为true时，增加选项value | String, Number    | ''   | 0.0.4 |
 
 
 #### 开发要点
