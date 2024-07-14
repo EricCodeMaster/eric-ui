@@ -14,7 +14,7 @@
 </template>
 <script setup>
 import { computed, useAttrs, useSlots } from "vue";
-import { get } from "lodash";
+import _ from "lodash";
 
 const props = defineProps({
   value: {
@@ -99,14 +99,14 @@ const selectValue = computed({
   },
 });
 
-const labelField = get(attrs, ["field-names", "label"], "label");
-const valueField = get(attrs, ["field-names", "value"], "value");
+const labelField = _.get(attrs, ["field-names", "label"], "label");
+const valueField = _.get(attrs, ["field-names", "value"], "value");
 
 const selectTitle = computed(() => {
   const target =
     selectOptions.value.find(item => item.value === selectValue.value) || {};
   const targetTitle =
-    target.title || target[labelField] || get(target, "value", "");
+    target.title || target[labelField] || _.get(target, "value", "");
   return targetTitle;
 });
 
@@ -123,10 +123,10 @@ const defaultAttrs = computed(() => {
       }
 
       if (props.options) {
-        const selectLabel = get(option, [labelField], "");
+        const selectLabel = _.get(option, [labelField], "");
         return handleFilterOptions(input, selectLabel);
       } else {
-        const selectLabel = get(option, "label", "");
+        const selectLabel = _.get(option, "label", "");
         return handleFilterOptions(input, selectLabel);
       }
     },
@@ -156,7 +156,7 @@ const defaultOption = {
 };
 
 const selectOptions = computed(() => {
-  const options = get(props, "options", []).map(itm => {
+  const options = _.get(props, "options", []).map(itm => {
     const selectTitle = itm.title || itm[labelField] || itm.value;
     return {
       ...itm,
