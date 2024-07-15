@@ -8,8 +8,17 @@ import { ESection } from "./ESection";
 export * from "./ESection";
 import { EStatusTag } from "./EStatusTag";
 export * from "./EStatusTag";
+import { EActionButton } from "./EActionButton";
+export * from "./EActionButton";
 
-const cmpts = [EButton, ESwitchButton, ESelect, ESection, EStatusTag];
+const cmpts = [
+  EButton,
+  ESwitchButton,
+  ESelect,
+  ESection,
+  EStatusTag,
+  EActionButton,
+];
 
 const EricUI = {
   install(Vue) {
