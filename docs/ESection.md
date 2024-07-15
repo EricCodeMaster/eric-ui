@@ -1,6 +1,6 @@
-# Select
+# Section-分段布局
 
-:::preview Section
+:::preview Section || 用在详情页或表单页，对多个内容进行分群展示时，提供分隔样式
 
 demo-preview=../components/ESection/Demo.vue
 

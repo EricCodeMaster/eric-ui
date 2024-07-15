@@ -2,52 +2,61 @@
   "hash": "43c1a68f",
   "configHash": "d08114b7",
   "lockfileHash": "287a9f12",
-  "browserHash": "647fcc6b",
+  "browserHash": "3bc1151d",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "7e2dc041",
+      "fileHash": "9eb32b4f",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../../node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "c34664de",
+      "fileHash": "baa8830e",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../../node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "7e842059",
+      "fileHash": "4faf2086",
       "needsInterop": false
     },
     "ant-design-vue": {
       "src": "../../../../node_modules/ant-design-vue/es/index.js",
       "file": "ant-design-vue.js",
-      "fileHash": "d98c7a96",
+      "fileHash": "cdb0ad37",
       "needsInterop": false
     },
     "@vitepress-demo-preview/component": {
       "src": "../../../../node_modules/@vitepress-demo-preview/component/dist/preview-component.js",
       "file": "@vitepress-demo-preview_component.js",
-      "fileHash": "754f6a90",
+      "fileHash": "d2a925ca",
       "needsInterop": false
     },
     "vxe-table": {
       "src": "../../../../node_modules/vxe-table/es/index.esm.js",
       "file": "vxe-table.js",
-      "fileHash": "e9488f0c",
+      "fileHash": "615c628a",
       "needsInterop": false
     },
     "lodash": {
       "src": "../../../../node_modules/lodash/lodash.js",
       "file": "lodash.js",
-      "fileHash": "0f54d34b",
+      "fileHash": "70df7011",
       "needsInterop": true
+    },
+    "@ant-design/icons-vue": {
+      "src": "../../../../node_modules/@ant-design/icons-vue/es/index.js",
+      "file": "@ant-design_icons-vue.js",
+      "fileHash": "dfcb9d58",
+      "needsInterop": false
     }
   },
   "chunks": {
+    "chunk-OGRUOFNW": {
+      "file": "chunk-OGRUOFNW.js"
+    },
     "chunk-OHXWM23E": {
       "file": "chunk-OHXWM23E.js"
     },

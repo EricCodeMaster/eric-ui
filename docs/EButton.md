@@ -1,6 +1,6 @@
-# Button
+# Button-按钮增强
 
-:::preview Button || 继承 ant design button 能力
+:::preview Button || 继承 ant design button 能力，封装 tooltip、modal.confirm/success/warn/info 的使用场景，不必额外引入相关组件
 
 demo-preview=../components/EButton/Demo.vue
 
