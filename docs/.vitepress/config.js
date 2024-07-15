@@ -36,6 +36,8 @@ export default defineConfig({
         items: [
           { text: "EButton-按钮增强", link: "/EButton" },
           { text: "ESwitchButton-状态按钮", link: "/ESwitchButton" },
+          // todo
+          // { text: "EActionButton-功能按钮", link: "/EActionButton" },
           { text: "ESelect-下拉框增强", link: "/ESelect" },
           { text: "ESection-分段布局", link: "/ESection" },
           { text: "EStatusTag-状态标签", link: "/EStatusTag" },
