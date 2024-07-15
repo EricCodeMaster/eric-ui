@@ -27,6 +27,9 @@ export default defineConfig({
     preprocessorOptions: {
       less: {
         javascriptEnabled: true,
+        modifyVars: {
+          "ant-prefix": "ant",
+        },
       },
     },
   },

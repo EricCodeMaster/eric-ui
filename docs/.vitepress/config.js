@@ -34,10 +34,11 @@ export default defineConfig({
       {
         text: "组件",
         items: [
-          { text: "EButton", link: "/EButton" },
-          { text: "ESwitchButton", link: "/ESwitchButton" },
-          { text: "ESelect", link: "/ESelect" },
-          { text: "ESection", link: "/ESection" },
+          { text: "EButton-按钮增强", link: "/EButton" },
+          { text: "ESwitchButton-状态按钮", link: "/ESwitchButton" },
+          { text: "ESelect-下拉框增强", link: "/ESelect" },
+          { text: "ESection-分段布局", link: "/ESection" },
+          { text: "EStatusTag-状态标签", link: "/EStatusTag" },
         ],
       },
     ],
@@ -60,6 +61,9 @@ export default defineConfig({
       preprocessorOptions: {
         less: {
           javascriptEnabled: true,
+          modifyVars: {
+            "ant-prefix": "ant",
+          },
         },
       },
     },

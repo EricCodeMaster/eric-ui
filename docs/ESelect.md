@@ -1,6 +1,6 @@
-# Select
+# Select-下拉框增强
 
-:::preview Select
+:::preview Select || Antd Select 二次封装，支持自动添加 title，当大于 20 条候选列表时自动支持搜索，支持将 label 内置到 select 内部的显示中，支持 readOnly 属性，默认宽度 200px,默认支持 allowClear.
 
 demo-preview=../components/ESelect/Demo.vue
 
