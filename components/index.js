@@ -10,6 +10,8 @@ import { EStatusTag } from "./EStatusTag";
 export * from "./EStatusTag";
 import { EActionButton } from "./EActionButton";
 export * from "./EActionButton";
+import { EForm, EFormItem } from "./EForm";
+export * from "./EForm";
 
 const cmpts = [
   EButton,
@@ -18,6 +20,8 @@ const cmpts = [
   ESection,
   EStatusTag,
   EActionButton,
+  EForm,
+  EFormItem,
 ];
 
 const EricUI = {
