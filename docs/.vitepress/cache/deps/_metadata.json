@@ -1,61 +1,70 @@
 {
-  "hash": "43c1a68f",
-  "configHash": "d08114b7",
+  "hash": "2eea0225",
+  "configHash": "a7e4f516",
   "lockfileHash": "287a9f12",
-  "browserHash": "3bc1151d",
+  "browserHash": "a8746062",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "9eb32b4f",
+      "fileHash": "5cbba192",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../../node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "baa8830e",
+      "fileHash": "0eb2d5d2",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../../node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "4faf2086",
+      "fileHash": "771d6866",
       "needsInterop": false
     },
     "ant-design-vue": {
       "src": "../../../../node_modules/ant-design-vue/es/index.js",
       "file": "ant-design-vue.js",
-      "fileHash": "cdb0ad37",
+      "fileHash": "bea83ce2",
       "needsInterop": false
     },
     "@vitepress-demo-preview/component": {
       "src": "../../../../node_modules/@vitepress-demo-preview/component/dist/preview-component.js",
       "file": "@vitepress-demo-preview_component.js",
-      "fileHash": "d2a925ca",
+      "fileHash": "eaee8fc9",
       "needsInterop": false
     },
     "vxe-table": {
       "src": "../../../../node_modules/vxe-table/es/index.esm.js",
       "file": "vxe-table.js",
-      "fileHash": "615c628a",
+      "fileHash": "cde83f37",
       "needsInterop": false
     },
     "lodash": {
       "src": "../../../../node_modules/lodash/lodash.js",
       "file": "lodash.js",
-      "fileHash": "70df7011",
+      "fileHash": "83877126",
       "needsInterop": true
     },
     "@ant-design/icons-vue": {
       "src": "../../../../node_modules/@ant-design/icons-vue/es/index.js",
       "file": "@ant-design_icons-vue.js",
-      "fileHash": "dfcb9d58",
+      "fileHash": "036af6ba",
       "needsInterop": false
+    },
+    "dayjs": {
+      "src": "../../../../node_modules/dayjs/dayjs.min.js",
+      "file": "dayjs.js",
+      "fileHash": "62020780",
+      "needsInterop": true
     }
   },
   "chunks": {
-    "chunk-OGRUOFNW": {
-      "file": "chunk-OGRUOFNW.js"
+    "chunk-VC7FK6AZ": {
+      "file": "chunk-VC7FK6AZ.js"
+    },
+    "chunk-P7J4MTC2": {
+      "file": "chunk-P7J4MTC2.js"
     },
     "chunk-OHXWM23E": {
       "file": "chunk-OHXWM23E.js"

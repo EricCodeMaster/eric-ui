@@ -3,6 +3,8 @@ import {
   containerPreview,
   componentPreview,
 } from "@vitepress-demo-preview/plugin";
+import vue from "@vitejs/plugin-vue";
+import vueJsx from "@vitejs/plugin-vue-jsx";
 
 const BASE_PATH = "/eric-ui";
 
@@ -34,6 +36,7 @@ export default defineConfig({
       {
         text: "组件",
         items: [
+          { text: "EForm-表单增强", link: "/EForm" },
           { text: "EButton-按钮增强", link: "/EButton" },
           { text: "ESwitchButton-状态按钮", link: "/ESwitchButton" },
           // todo
@@ -59,6 +62,7 @@ export default defineConfig({
     ],
   },
   vite: {
+    plugins: [vueJsx()],
     css: {
       preprocessorOptions: {
         less: {
