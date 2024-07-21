@@ -1,6 +1,6 @@
 <template>
   <a-row align="middle" style="margin-bottom: 16px">
-    缓存提示方式：
+    编辑详情模式切换：
     <a-switch
       v-model:checked="checked"
       checked-children="详情"
