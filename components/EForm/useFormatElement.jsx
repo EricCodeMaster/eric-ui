@@ -1,5 +1,5 @@
 import dayjs from "dayjs";
-import { isArray } from "lodash";
+import _ from "lodash";
 
 const NO_DATA = "--";
 
@@ -13,7 +13,7 @@ export const useFormatElement = () => {
 
     let time;
     let isValidTime = true;
-    if (isArray(date)) {
+    if (_.isArray(date)) {
       isValidTime = date.every(item => dayjs(item, format, true).isValid());
       time = date.map(item => dayjs(item).format(format));
 
@@ -59,7 +59,7 @@ export const useFormatElement = () => {
     const options = node.props && node.props["tree-data"];
     let result = [];
 
-    const selectValue = isArray(data) ? data : [data];
+    const selectValue = _.isArray(data) ? data : [data];
     const findLabel = (target, value) => {
       return target.forEach(o => {
         if (value.some(v => v === o.value)) {
