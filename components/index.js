@@ -12,6 +12,10 @@ import { EActionButton } from "./EActionButton";
 export * from "./EActionButton";
 import { EForm, EFormItem } from "./EForm";
 export * from "./EForm";
+import { EEditableDesc } from "./EEditableDesc";
+export * from "./EEditableDesc";
+import { EConfigProvider } from "./EConfigProvider";
+export * from "./EConfigProvider";
 
 const cmpts = [
   EButton,
@@ -22,6 +26,8 @@ const cmpts = [
   EActionButton,
   EForm,
   EFormItem,
+  EEditableDesc,
+  EConfigProvider,
 ];
 
 const EricUI = {
