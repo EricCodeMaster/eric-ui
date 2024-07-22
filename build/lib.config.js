@@ -26,9 +26,6 @@ export default defineConfig({
         "@vitepress-demo-preview/component",
         "@vitepress-demo-preview/plugin",
       ],
-      output: {
-        format: "esm", // 确保输出格式为 ES 模块
-      },
     },
   },
   plugins: [

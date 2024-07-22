@@ -5,7 +5,7 @@ import DefaultTheme from "vitepress/theme";
 
 import Antd, { ConfigProvider } from "ant-design-vue";
 import "./antd-overwrite.less";
-import zhCN from "ant-design-vue/es/locale/zh_CN";
+// import zhCN from "ant-design-vue/es/locale/zh_CN";
 
 import { AntDesignContainer } from "@vitepress-demo-preview/component";
 import "@vitepress-demo-preview/component/dist/style.css";
@@ -24,7 +24,7 @@ export default {
   extends: DefaultTheme,
   Layout: () => {
     // https://vitepress.dev/guide/extending-default-theme#layout-slots
-    return h(ConfigProvider, { locale: zhCN }, {
+    return h(ConfigProvider, {}, {
       default: () => h(DefaultTheme.Layout, null, {
         "home-hero-image": () => h(HomeImage),
       }),
