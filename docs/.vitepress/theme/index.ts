@@ -7,7 +7,7 @@ import Antd, { ConfigProvider } from "ant-design-vue";
 import "./antd-overwrite.less";
 // import zhCN from "ant-design-vue/es/locale/zh_CN";
 
-import AntdConfigProviderRewrite from "./AntdConfigProviderRewrite.vue";
+import AntdConfigProviderRewrite from "../../../src/components/AntdConfigProviderRewrite.vue";
 
 import { AntDesignContainer } from "@vitepress-demo-preview/component";
 import "@vitepress-demo-preview/component/dist/style.css";
