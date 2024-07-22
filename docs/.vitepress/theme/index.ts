@@ -7,6 +7,8 @@ import Antd, { ConfigProvider } from "ant-design-vue";
 import "./antd-overwrite.less";
 // import zhCN from "ant-design-vue/es/locale/zh_CN";
 
+import AntdConfigProviderRewrite from "./AntdConfigProviderRewrite.vue";
+
 import { AntDesignContainer } from "@vitepress-demo-preview/component";
 import "@vitepress-demo-preview/component/dist/style.css";
 
@@ -24,11 +26,16 @@ export default {
   extends: DefaultTheme,
   Layout: () => {
     // https://vitepress.dev/guide/extending-default-theme#layout-slots
-    return h(ConfigProvider, {}, {
-      default: () => h(DefaultTheme.Layout, null, {
-        "home-hero-image": () => h(HomeImage),
-      }),
-    });
+    return h(
+      AntdConfigProviderRewrite,
+      {},
+      {
+        default: () =>
+          h(DefaultTheme.Layout, null, {
+            "home-hero-image": () => h(HomeImage),
+          }),
+      }
+    );
   },
   enhanceApp({ app, router, siteData }) {
     app.use(VxeTable);
