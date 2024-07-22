@@ -44,6 +44,7 @@ export default defineConfig({
           { text: "ESelect-下拉框增强", link: "/ESelect" },
           { text: "ESection-分段布局", link: "/ESection" },
           { text: "EStatusTag-状态标签", link: "/EStatusTag" },
+          { text: "EEditableDesc-可编辑描述", link: "/EEditableDesc" },
         ],
       },
     ],
