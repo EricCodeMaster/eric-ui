@@ -25,7 +25,6 @@ export default defineConfig({
         "xe-utils",
         "@vitepress-demo-preview/component",
         "@vitepress-demo-preview/plugin",
-        "ant-design-vue/es/locale/zh_CN"
       ],
     },
   },
