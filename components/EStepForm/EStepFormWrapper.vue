@@ -21,7 +21,6 @@
       <slot name="extraButton"></slot>
     </template>
   </StepForm>
-  <slot name="divider" />
 </template>
 
 <script>
