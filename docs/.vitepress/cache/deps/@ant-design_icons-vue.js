@@ -57,7 +57,7 @@ import {
   svgBaseProps,
   useInsertStyles,
   warning
-} from "./chunk-P7J4MTC2.js";
+} from "./chunk-OGRUOFNW.js";
 import {
   createVNode
 } from "./chunk-OHXWM23E.js";

@@ -16,6 +16,8 @@ import { EEditableDesc } from "./EEditableDesc";
 export * from "./EEditableDesc";
 import { EConfigProvider } from "./EConfigProvider";
 export * from "./EConfigProvider";
+import { EHelper } from "./EHelper";
+export * from "./EHelper";
 
 const cmpts = [
   EButton,
@@ -28,6 +30,7 @@ const cmpts = [
   EFormItem,
   EEditableDesc,
   EConfigProvider,
+  EHelper,
 ];
 
 const EricUI = {

@@ -45,6 +45,7 @@ export default defineConfig({
           { text: "ESection-分段布局", link: "/ESection" },
           { text: "EStatusTag-状态标签", link: "/EStatusTag" },
           { text: "EEditableDesc-可编辑描述", link: "/EEditableDesc" },
+          { text: "EHelper-帮助词条", link: "/EHelper" },
         ],
       },
     ],
