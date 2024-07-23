@@ -1,7 +1,7 @@
 import {
   _objectSpread2,
   zh_CN_default
-} from "./chunk-KEJJGDMZ.js";
+} from "./chunk-UA5DQHE5.js";
 import "./chunk-G3PMV62Z.js";
 
 // node_modules/ant-design-vue/es/vc-picker/locale/zh_CN.js
