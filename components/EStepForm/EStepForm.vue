@@ -82,7 +82,7 @@ export default {
       default: () => ({}),
     },
     attachTo: {
-      type: [String, HTMLDivElement],
+      type: [String, Object],
     },
     viewMode: {
       type: Boolean,

@@ -22,7 +22,7 @@ demo-preview=../components/EStepForm/demo/Demo2.vue
 | 属性名      | 说明             | 类型                                    | 默认值 | 版本  |
 | ----------- | ---------------- | --------------------------------------- | ------ | ----- |
 | stepStyle   | 步骤条容器的样式 | Object                                  | -      | 2.4.0 |
-| attachTo    | teleport 出口    | String \| HTMLDivElement                | -      | 2.4.2 |
+| attachTo    | teleport 出口    | String \| 'HTMLDivElement'                | -      | 2.4.2 |
 | affixConfig | 配置吸底模式     | '{target: Function, offsetBottom:Number}' | -      | 2.5.2 |
 
 #### EStepForm 插槽
