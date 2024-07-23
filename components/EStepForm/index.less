@@ -1,0 +1,36 @@
+.e-step-form__head {
+  background: #f5f6f8;
+  font-size: 14px;
+  font-weight: 600;
+  height: 32px;
+  line-height: 32px;
+  padding: 0 8px;
+  position: relative;
+  margin-bottom: 8px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 0;
+    width: 3px;
+    background: var(--j-primary-color);
+    height: 16px;
+  }
+}
+
+.e-step-form__container {
+  :global(.@{ant-prefix}-affix) {
+    width: unset !important;
+  }
+}
+
+.e-step-form__footer-wrapper {
+  background: var(--j-bg-color);
+  padding: 4px;
+  border-radius: var(--j-border-radius);
+}
+
+.e-step-form__footer-border {
+  border: 1px solid var(--j-border-color);
+}
