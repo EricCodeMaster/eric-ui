@@ -18,6 +18,8 @@ import { EConfigProvider } from "./EConfigProvider";
 export * from "./EConfigProvider";
 import { EHelper } from "./EHelper";
 export * from "./EHelper";
+import { EStepForm, EStepFormItem } from './EStepForm';
+export * from './EStepForm';
 
 const cmpts = [
   EButton,
@@ -31,6 +33,8 @@ const cmpts = [
   EEditableDesc,
   EConfigProvider,
   EHelper,
+  EStepForm,
+  EStepFormItem,
 ];
 
 const EricUI = {
