@@ -20,6 +20,8 @@ import { EHelper } from "./EHelper";
 export * from "./EHelper";
 import { EStepForm, EStepFormItem } from './EStepForm';
 export * from './EStepForm';
+import { ETagInput } from './ETagInput';
+export * from './ETagInput';
 
 const cmpts = [
   EButton,
@@ -35,6 +37,7 @@ const cmpts = [
   EHelper,
   EStepForm,
   EStepFormItem,
+  ETagInput,
 ];
 
 const EricUI = {

@@ -40,7 +40,6 @@ export default {
   enhanceApp({ app, router, siteData }) {
     app.use(VxeTable);
     app.use(Antd);
-    app.use(ConfigProvider)
     app.use(EricUI);
     app.component("demo-preview", AntDesignContainer);
   },
