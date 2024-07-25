@@ -48,6 +48,7 @@ export default defineConfig({
           { text: "EEditableDesc-可编辑描述", link: "/EEditableDesc" },
           { text: "EHelper-帮助词条", link: "/EHelper" },
           { text: "ETagInput-标签输入", link: "/ETagInput" },
+          { text: "ECheckCard-多选卡片", link: "/ECheckCard" },
         ],
       },
     ],
