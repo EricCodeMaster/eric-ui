@@ -38,6 +38,7 @@ export default defineConfig({
         items: [
           { text: "EForm-表单增强", link: "/EForm" },
           { text: "EStepForm-分布表单", link: "/EStepForm" },
+          { text: "EFormList-不定项表单", link: "/EFormList" },
           { text: "EButton-按钮增强", link: "/EButton" },
           { text: "ESwitchButton-状态按钮", link: "/ESwitchButton" },
           // todo
@@ -48,6 +49,7 @@ export default defineConfig({
           { text: "EEditableDesc-可编辑描述", link: "/EEditableDesc" },
           { text: "EHelper-帮助词条", link: "/EHelper" },
           { text: "ETagInput-标签输入", link: "/ETagInput" },
+          { text: "ECheckCard-多选卡片", link: "/ECheckCard" },
         ],
       },
     ],

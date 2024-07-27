@@ -22,6 +22,10 @@ import { EStepForm, EStepFormItem } from './EStepForm';
 export * from './EStepForm';
 import { ETagInput } from './ETagInput';
 export * from './ETagInput';
+import { ECheckCard } from './ECheckCard';
+export * from './ECheckCard';
+import { EFormList } from './EFormList';
+export * from './EFormList';
 
 const cmpts = [
   EButton,
@@ -38,6 +42,8 @@ const cmpts = [
   EStepForm,
   EStepFormItem,
   ETagInput,
+  ECheckCard,
+  EFormList,
 ];
 
 const EricUI = {
