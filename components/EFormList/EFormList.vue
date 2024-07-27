@@ -184,10 +184,15 @@ export default {
       });
       if (!colTitle.value.length) {
         setTimeout(() => {
-          colTitle.value = vNode.map(item => {
-            const width = getComputedStyle(item.el).width;
-            return { label: item.props?.label || "", width };
-          });
+          if (
+            typeof window !== "undefined" &&
+            typeof window.getComputedStyle !== "undefined"
+          ) {
+            colTitle.value = vNode.map(item => {
+              const width = getComputedStyle(item.el).width;
+              return { label: item.props?.label || "", width };
+            });
+          }
         });
       }
       return vNode;
