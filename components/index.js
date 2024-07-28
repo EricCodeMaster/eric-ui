@@ -26,6 +26,8 @@ import { ECheckCard } from './ECheckCard';
 export * from './ECheckCard';
 import { EFormList } from './EFormList';
 export * from './EFormList';
+import { EJsonSchemaForm } from './EJsonSchemaForm';
+export * from './EJsonSchemaForm';
 
 const cmpts = [
   EButton,
@@ -44,6 +46,7 @@ const cmpts = [
   ETagInput,
   ECheckCard,
   EFormList,
+  EJsonSchemaForm,
 ];
 
 const EricUI = {
