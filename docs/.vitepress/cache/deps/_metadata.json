@@ -1,89 +1,107 @@
 {
-  "hash": "a378e3d6",
+  "hash": "c19f046f",
   "configHash": "a7e4f516",
-  "lockfileHash": "4a389385",
-  "browserHash": "78028af1",
+  "lockfileHash": "ac1db23b",
+  "browserHash": "85ee1d25",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "24380209",
+      "fileHash": "088b0cfe",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../../node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "2e7c7502",
+      "fileHash": "d3e99310",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../../node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "fa61edf7",
+      "fileHash": "06ce95da",
       "needsInterop": false
     },
     "ant-design-vue": {
       "src": "../../../../node_modules/ant-design-vue/es/index.js",
       "file": "ant-design-vue.js",
-      "fileHash": "fd6c48b7",
+      "fileHash": "6333b848",
       "needsInterop": false
     },
     "@vitepress-demo-preview/component": {
       "src": "../../../../node_modules/@vitepress-demo-preview/component/dist/preview-component.js",
       "file": "@vitepress-demo-preview_component.js",
-      "fileHash": "9aabb716",
+      "fileHash": "b2e1b663",
       "needsInterop": false
     },
     "vxe-table": {
       "src": "../../../../node_modules/vxe-table/es/index.esm.js",
       "file": "vxe-table.js",
-      "fileHash": "87078afd",
+      "fileHash": "432c625e",
       "needsInterop": false
     },
     "ant-design-vue/lib/locale-provider/zh_CN": {
       "src": "../../../../node_modules/ant-design-vue/lib/locale-provider/zh_CN.js",
       "file": "ant-design-vue_lib_locale-provider_zh_CN.js",
-      "fileHash": "51e0b66c",
+      "fileHash": "54a9434f",
       "needsInterop": true
     },
     "dayjs": {
       "src": "../../../../node_modules/dayjs/dayjs.min.js",
       "file": "dayjs.js",
-      "fileHash": "0552c9f4",
+      "fileHash": "e19918fd",
       "needsInterop": true
     },
     "dayjs/locale/zh-cn": {
       "src": "../../../../node_modules/dayjs/locale/zh-cn.js",
       "file": "dayjs_locale_zh-cn.js",
-      "fileHash": "c89f68f1",
+      "fileHash": "19089c2d",
       "needsInterop": true
     },
     "lodash": {
       "src": "../../../../node_modules/lodash/lodash.js",
       "file": "lodash.js",
-      "fileHash": "c75f2498",
+      "fileHash": "7cb04d45",
       "needsInterop": true
     },
     "@ant-design/icons-vue": {
       "src": "../../../../node_modules/@ant-design/icons-vue/es/index.js",
       "file": "@ant-design_icons-vue.js",
-      "fileHash": "72583047",
+      "fileHash": "3dff8abe",
       "needsInterop": false
     },
     "lodash-es": {
       "src": "../../../../node_modules/lodash-es/lodash.js",
       "file": "lodash-es.js",
-      "fileHash": "14c8d81f",
+      "fileHash": "f039985b",
       "needsInterop": false
     },
     "nanoid": {
       "src": "../../../../node_modules/nanoid/index.browser.js",
       "file": "nanoid.js",
-      "fileHash": "a643df71",
+      "fileHash": "adbd0bda",
       "needsInterop": false
+    },
+    "ajv": {
+      "src": "../../../../node_modules/ajv/dist/ajv.js",
+      "file": "ajv.js",
+      "fileHash": "fe7df798",
+      "needsInterop": true
+    },
+    "ajv-i18n/localize/zh": {
+      "src": "../../../../node_modules/ajv-i18n/localize/zh/index.js",
+      "file": "ajv-i18n_localize_zh.js",
+      "fileHash": "47859006",
+      "needsInterop": true
     }
   },
   "chunks": {
+    "chunk-D26ZM3O5": {
+      "file": "chunk-D26ZM3O5.js"
+    },
+    "chunk-VC7FK6AZ": {
+      "file": "chunk-VC7FK6AZ.js"
+    },
     "chunk-P7J4MTC2": {
       "file": "chunk-P7J4MTC2.js"
     },
@@ -92,12 +110,6 @@
     },
     "chunk-OHXWM23E": {
       "file": "chunk-OHXWM23E.js"
-    },
-    "chunk-D26ZM3O5": {
-      "file": "chunk-D26ZM3O5.js"
-    },
-    "chunk-VC7FK6AZ": {
-      "file": "chunk-VC7FK6AZ.js"
     },
     "chunk-G3PMV62Z": {
       "file": "chunk-G3PMV62Z.js"

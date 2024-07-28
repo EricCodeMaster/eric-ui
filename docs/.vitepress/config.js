@@ -39,6 +39,7 @@ export default defineConfig({
           { text: "EForm-表单增强", link: "/EForm" },
           { text: "EStepForm-分布表单", link: "/EStepForm" },
           { text: "EFormList-不定项表单", link: "/EFormList" },
+          { text: "EJsonSchemaForm-schema表单", link: "/EJsonSchemaForm" },
           { text: "EButton-按钮增强", link: "/EButton" },
           { text: "ESwitchButton-状态按钮", link: "/ESwitchButton" },
           // todo
